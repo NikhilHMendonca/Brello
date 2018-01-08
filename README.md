@@ -1,5 +1,5 @@
 # Brello
-Brello: A Javscript Task Manager
+A Javscript Task Manager
 
 <strong>Brello</strong> let's you manage your tasks on the go.<br><br>
 With Brello you can create <strong>Lists</strong> and add <strong>Tasks</strong><br> 
