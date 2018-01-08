@@ -9,45 +9,49 @@ html, body {
   background: -o-linear-gradient(45deg, #28ef9c, #42adff);
   background: linear-gradient(45deg, #28ef9c, #42adff); }
 
-.container-fluid {
-  padding: 0;
-  height: 100%; }
+.container-fluid { padding: 0;height: 100%;}
 
 .header {
   font-family: 'Niconne',sans-serif !important;
   font-size: 30px;
   font-weight: bold;
-  color: var(--white) !important; }
+  color: var(--white) !important;
+}
 
 .header, .content {
   color: var(--black);
   height: 50px;
   padding: 8px;
-  text-align: center; }
+  text-align: center;
+}
 
-.content {
-  height: calc(100% - 50px);
-  width: 100%; }
-  .content .content-wrapper {
-    display: grid;
-    grid-auto-flow: column;
-    grid-gap: 8px;
-    height: 100%;
-    overflow-x: scroll; }
-    .content .content-wrapper .swimlane-wrapper {
-      height: auto;
-      text-align: left;
-      overflow-y: scroll;
-      width: 350px; }
+.content { height: calc(100% - 50px);width: 100%;}
+
+.content .content-wrapper {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 8px;
+  height: 100%;
+  overflow-x: scroll;
+}
+
+.content .content-wrapper .swimlane-wrapper {
+  height: auto;
+  text-align: left;
+  overflow-y: scroll;
+  width: 350px;
+}
 
 .swimlane-content {
   padding: 8px;
   border-radius: 3px;
-  background-color: #cfd1d6; }
-  .swimlane-content .swimlane-title {
-    color: var(--black);
-    font-weight: 600;
-    margin: 0 0 8px 0; }
+  background-color: #cfd1d6;
+}
+.swimlane-content .swimlane-title {
+  color: var(--black);
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
   .swimlane-content .swimlane-child {
     padding: 8px;
     cursor: pointer;
