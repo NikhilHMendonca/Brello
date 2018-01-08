@@ -78,7 +78,8 @@ function handle_drop(e) {
     listArr[draggedParentId].tasks.push(child.firstChild.innerHTML);
 
     add_event_listener(child);
-    document.querySelectorAll('.swimlane-content')[draggedParentId].insertBefore(child, document.querySelectorAll('.swimlane-text')[draggedParentId]);
+    document.querySelectorAll('.swimlane-content')[draggedParentId]
+    .insertBefore(child, document.querySelectorAll('.swimlane-text')[draggedParentId]);
   }
 
   return false;
